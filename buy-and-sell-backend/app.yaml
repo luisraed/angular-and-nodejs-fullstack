@@ -1,0 +1,9 @@
+runtime: nodejs
+env: flex
+beta_settings:
+  cloud_sql_instances: luis-raed:us-central1:buy-and-sell-db
+env_variables:
+  DB_USER: hapi-server
+  DB_PASS: w8BenPartIh
+  DB_NAME: buy-and-sell
+  DB_SOCKET: /cloudsql/luis-raed:us-central1:buy-and-sell-db
